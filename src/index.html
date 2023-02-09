@@ -1,0 +1,759 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Plus+Jakarta+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link href="../dist/nouislider.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../dist/output.css" />
+
+</head>
+
+<body>
+
+    <!-- header start -->
+
+    <header>
+        <div class="topbar bg-black flex flex-row justify-end p-2 px-[4.8vw] z-30 relative">
+            <div class="number flex flex-row justify-between items-center border-r-2 border-gray-500 pr-3">
+                <img src="./assets/img/phone.png" alt="phone" class="w-5 h-4 relative mr-2" />
+                <h4 class="text-white text-xs">+90 850 222 342</h4>
+            </div>
+            <div class="email text-[#a0a0a0] mr-5 pl-3 flex items-center">
+                @
+                <span class="text-white ml-1 text-xs">luxury@trith.co</span>
+            </div>
+        </div>
+
+        <!-- navigation bar -->
+
+        <nav class="flex justify-between bg-white p-5 items-center px-[8vw] border-b-2 relative z-30">
+
+            <!-- logo -->
+
+            <div class="logo text-[#3EB27B] font-bold text-xl cursor-pointer mobile-nav:text-2xl">
+                trith<span class="text-black">luxury</span>
+            </div>
+
+            <!-- desktop navigation links -->
+
+            <div class="right-nav flex justify-between items-center mobile-nav:hidden">
+                <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium">buy</h3>
+                <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium">sell</h3>
+                <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium">services</h3>
+                <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium">contact</h3>
+                <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium">faq</h3>
+                <button type="button"
+                    class="text-white font-bold mx-4 bg-[#3EB27B] hover:bg-[#23be76] flex p-2 rounded-full text-xs items-center px-7 cursor-pointer font_medium">
+                    <img class="w-5 mx-1" src="./assets/img/whatsapp.png" alt="whatsapp" />
+                    Whatsapp
+                </button>
+            </div>
+
+            <!-- Hamburger icon -->
+
+            <div class="hover-nav space-y-2 mobile-nav:inline-block hidden cursor-pointer">
+                <span class="block w-8 h-[1.3px] bg-gray-600"></span>
+                <span class="block w-8 h-[1.3px] bg-gray-600"></span>
+                <span class="block w-5 h-[1.3px] bg-gray-600 hover-width transition-all"></span>
+            </div>
+        </nav>
+
+        <!-- mobile sidebar -->
+
+        <div
+            class="mobile-sidebar mobile-nav:flex justifycenter items-center mobile-nav:flex-col fixed w-[70vw] bg-white h-[100vh] z-20 hidden max-w-[250px] transition-all">
+            <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium my-2 font_medium">buy</h3>
+            <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium my-2 font_medium">sell</h3>
+            <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium my-2 font_medium">services</h3>
+            <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium my-2 font_medium">contact</h3>
+            <h3 class="uppercase font-bold mx-4 text-xs cursor-pointer font_medium my-2 font_medium">faq</h3>
+            <button type="button"
+                class="text-white font-bold mx-4 bg-[#3EB27B] hover:bg-[#23be76] flex p-2 rounded-full text-xs items-center px-7 cursor-pointer my-2">
+                <img class="w-5 mx-1" src="./assets/img/whatsapp.png" alt="whatsapp" />
+                Whatsapp
+            </button>
+        </div>
+
+        <!-- end of mobile navigation -->
+
+    </header>
+
+    <!-- end of header -->
+
+    <main>
+
+        <!-- hero start -->
+
+        <div
+            class="hero px-[8vw] bg-[url('../src/assets/img/bg.png')] text-white p-5 flex flex-col justify-center items-left mobile-hero:h-[80vh] mobile-hero:bg-cover">
+            <h1 class="text-3xl max-w-[500px] font-[600]">
+                Buy, sell or invest for new home In Istabul, Biggest city of Europe.
+            </h1>
+            <h4 class="opacity-75 mt-4 font-[600]">
+                It’s the new way home. Yours.
+            </h4>
+        </div>
+
+        <!-- hero end -->
+
+        <!-- section second begin -->
+
+        <section id="second" class="flex justify-between overflow-hidden px-[13vw] pt-[100px] mobile:pt-0 mobile:my-9">
+
+            <!-- image start -->
+
+            <div class="left mobile:hidden">
+                <img src="./assets/img/secondbg.png" alt="done" class="w-[30vw] max-w-[500px]">
+            </div>
+
+            <!-- image end -->
+
+            <!-- right start -->
+
+            <div class="right flex flex-col">
+                <h1 class="text-[#3EB27B] text-2xl font-bold mb-4">Buying a new home?</h1>
+                <p class="max-w-xl">
+                    With Trith Luxury, a dedicated Home Buying REALTOR® in your
+                    community will help you find the perfect home for you and your
+                    family, and provide all the support you need through the whole
+                    buying process.
+                </p>
+                <button type="button"
+                    class="text-[#3EB27B] button-second border-[1px] inline-block p-2 px-5 w-fit mt-8 hover:bg-[#3EB27B] hover:text-white transition">Lets
+                    find your
+                    new home</button>
+            </div>
+
+            <!-- right end -->
+
+        </section>
+
+        <!-- second section end -->
+
+        <!-- third section begin -->
+
+        <section id="third" class="bg-[#3EB27B] flex justify-between overflow-hidden px-[8vw] ">
+
+            <!-- left start -->
+
+            <div class="left flex justify-center flex-col py-[6rem]">
+                <h1 class="text-white text-2xl font-bold mb-4">Selling your home?</h1>
+                <p class="max-w-xl text-white">
+                    With Trith Luxury, a dedicated Home Buying REALTOR® in your community will help you find the perfect
+                    home for you and your family, and provide all the support you need through the whole buying
+                    process., and provide all the support you need through the whole buying process., and provide all
+                    the support you need through the whole buying process.
+                </p>
+                <button type="button"
+                    class="text-[#3EB27B] button-third border-[1px] inline-block p-3 px-9 w-fit mt-8 font-bold hover:bg-[#3EB27B] hover:text-white hover:border-[white] transition">Sell
+                    your home</button>
+            </div>
+            <!-- left end -->
+
+            <!-- right start -->
+
+            <div class="right mobile:hidden">
+                <img src="./assets/img/bgthird.png" alt="done" class="w-[40vw] max-w-[500px] relative top-[5rem]">
+            </div>
+
+            <!-- right end -->
+
+        </section>
+
+        <!-- third section end -->
+
+        <!-- fourth section begin / calc savings begin -->
+
+        <section id="CALC_SAVINGS" class="pt-14">
+            <h1 class="text-center text-3xl font-semibold my-1 md:text-2xl md:px-5">How much could you save selling with
+                trithluxury?</h1>
+            <p class="text-center opacity-[63%] text-xl font-semibold md:opacity-50 md:text-[15px]">Slide select your
+                homes value</p>
+            <div class="value_for_calc text-center text-5xl font-bold text-[#3EB27C] my-3 mb-[30px]">$500,000</div>
+            <div class="flex flex-col justify-center items-center">
+
+                <span class="deta flex justify-between w-[70vw] max-w-[1000px]">
+                    <div class="left text-[#3EB27C] font-semibold mb-2">$100,000</div>
+                    <div class="right text-[#3EB27C] font-semibold mb-2">$3,000,000</div>
+                </span>
+                <div id="slider" class="w-[70vw] rounded-full">
+
+                </div>
+                <h1 class="text-[#3EB27C] text-2xl font-semibold text-center mt-5 mb-3">Your commission savings</h1>
+                <button
+                    class="text-white bg-[#3EB27C] text-6xl p-5 rounded-full text-center px-12 font-bold">$18,350</button>
+                <p
+                    class="w-[500px] text-center my-6 opacity-[43%] mb-[15vh] font-semibold md:text-xs md:w-[unset] px-4 md:opacity-25">
+                    When compared to a
+                    commission of 4%, taking into account a 2% buyer agent commission and our $3,499 fee payable when
+                    the home successfully sells, plus the applicable taxes.
+                </p>
+            </div>
+
+
+        </section>
+
+        <!-- fourth section begin / calc savings end -->
+
+        <!-- fifth section begin -->
+
+        <section id="BEFORE_FOOTER" class="bg-[#3EB27B] overflow-hidden py-[60px] md:py-3">
+            <span style="display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;">
+                <h1 class="font_medium text-5xl text-center text-white mb-7 md:text-3xl">Our mission is great customer
+                    service.</h1>
+                <button type="button"
+                    class="flex bg-white whitespace-nowrap justify-center items-center rounded-full pt-2 px-8 text-center ml-0 mobile:ml-2 md:px-1"><span
+                        class="relative top-[-4px] border-r-2 pr-6"><strong>2,234</strong> Reviews</span>
+                    <div class="ratings flex mt-2 mb-2 px-6">
+                        <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                            </path>
+                        </svg>
+                        <h1 class="ml-[12%] text-[#3EB27B] relative top-[-3px]"><strong>4</strong> stars out of
+                            <strong>5</strong>
+                        </h1>
+                    </div>
+                </button>
+            </span>
+            <div class="wrapperTop overflow-scroll">
+                <span class="wrapper overflow-scroll flex w-[fit-content] p-14">
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                    <div class="card rounded-xl overflow-hidden inline-flex flex-col w-[320px] bg-white mx-4">
+                        <div class="thumbnail overflow-hidden h-[10rem]"><img src="./assets/img/thumb.png"
+                                class="w-[100%]" alt="thumbnail"></div>
+                        <div class="ratings flex mt-2 mb-2 px-6">
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3EB27B]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <svg aria-hidden="true" class="w-5 h-5 text-[#3eb27c63]" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                </path>
+                            </svg>
+                            <h1 class="ml-[12%] text-[#3EB27B]"><strong>4</strong> stars out of <strong>5</strong></h1>
+                        </div>
+                        <div class="headline text-xs px-6"><span class="font-bold">“IT’S AMAZING”</span> <br>
+                            TrithLuxury rocks! I am so happy to be in my new home and grateful for all the hard work
+                            from
+                            the staff that helped me get here.</div>
+                        <div class="location text-[12px] opacity-[51%] font-bold px-6 mt-2 pb-2">
+                            Tiffany R. / Qatar
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </section>
+
+        <!-- fifth section end -->
+
+    </main>
+
+    <!-- footer begins -->
+
+    <footer class="py-5">
+        <nav class="flex justify-between bg-white p-5 items-center px-[12vw] footer:hidden">
+            <div class="logo text-[#3D986D] font-bold text-3xl">
+                trith<span class="text-[#3EB27B]">luxury</span>
+            </div>
+            <div class="right-nav flex justify-between items-center">
+                <h3 class="capitalize font-bold mx-4 text-xs">Home</h3>
+                <h3 class="capitalize font-bold mx-4 text-xs">services</h3>
+                <h3 class="capitalize font-bold mx-4 text-xs">buy</h3>
+                <h3 class="capitalize font-bold mx-4 text-xs">sell</h3>
+                <h3 class="uppercase font-bold mx-4 text-xs">FAQ</h3>
+
+            </div>
+        </nav>
+        <hr>
+
+        <h1 class="font-bold px-[12vw] pt-[35px] text-xl mb-1">About us</h1>
+        <p class="px-[12vw] pt-[5px]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typese
+        </p>
+        <h1 class="font-bold px-[12vw] pt-[35px] text-xl mb-1">Contact</h1>
+        <button type="button"
+            class="mx-[12vw] my-[5px] px-5 py-2 rounded-[13px] whitespace-nowrap inline-flex items-center border text-[#3EB27B] border-[#3EB27B] hover:text-white hover:bg-[#3EB27B] transition-all"><img
+                src="./assets/img/whatsapp2.png" alt="whatsapp" class="w-7">Send message now</button>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script type="module">
+        import noUiSlider from '../dist/nouislider.min.mjs';
+        let slider = document.getElementById('slider');
+
+        noUiSlider.create(slider, {
+            start: [20],
+            connect: true,
+            range: {
+                'min': 0,
+                'max': 100
+            }
+        });
+
+        slider.onclick = () => {
+            let value_for_calc = document.querySelector(".value_for_calc");
+            value_for_calc.innerHTML = slider.noUiSlider.get();
+
+        }
+    </script>
+</body>
+
+</html>
